@@ -1,0 +1,7 @@
+1. Read README.md.
+2. Install requirements with: python -m pip install -r requirements.txt
+3. Run checks: python agrosim.py --check
+4. Run baseline: python agrosim.py --mode baseline --ticks 3240 --seed 100
+5. Run research: python agrosim.py --mode research --ticks 3240 --seed 100
+6. Review RESEARCH_REPORT.md and PRESENTATION.pptx before publishing.
+Research-mode flux defaults are illustrative experimental inputs, not calibrated field data.
